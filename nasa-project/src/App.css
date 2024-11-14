@@ -16,7 +16,44 @@
 .image {
   width: 900px;
   border-radius: 19px;
+  max-width: 50%;
 }
+
+.image-container {
+  display: flex; 
+  align-items: center; 
+
+}
+.explanation{
+  margin-left: 20px;
+}
+
+@media (max-width: 768px) { 
+  .image-container {
+    flex-direction: column; 
+  }
+
+  #root {
+    max-width: 1000px;
+    padding: 0.01rem;
+    text-align: center;
+  }
+
+  .image {
+    width: 900px;
+    border-radius: 19px;
+    max-width: 80%;
+  }
+
+  h2{
+    font-size: 2rem;
+  }
+
+}
+
+
+
+
 
 /**
  * Nome do arquivo: App.css

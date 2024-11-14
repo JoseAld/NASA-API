@@ -67,6 +67,15 @@ button:focus-visible {
   }
 }
 
+h2{
+  font-size: 3rem;
+}
+
+p{
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+
 
 /**
  * Nome do arquivo: index.css

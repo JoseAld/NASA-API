@@ -27,8 +27,10 @@ function App() {
       {imageData && (
         <div>
           <h2>{imageData.title}</h2>
-          <img src={imageData.url} className='image' />
-          <p>{imageData.explanation}</p>
+          <div className="image-container">
+            <img src={imageData.url} className='image' />
+            <p>{imageData.explanation}</p>
+          </div>
         </div>
       )}
     </div>
